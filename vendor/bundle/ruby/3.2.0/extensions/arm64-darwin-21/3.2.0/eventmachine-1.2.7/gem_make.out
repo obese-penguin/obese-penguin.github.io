@@ -1,0 +1,20 @@
+current directory: /Users/riddhiman/projects/test-blog/jekyll-TeXt-theme/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/riddhiman/projects/test-blog/jekyll-TeXt-theme/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230626-94653-2xtlg0 sitelibdir\=./.gem.20230626-94653-2xtlg0 clean
+
+current directory: /Users/riddhiman/projects/test-blog/jekyll-TeXt-theme/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230626-94653-2xtlg0 sitelibdir\=./.gem.20230626-94653-2xtlg0
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/riddhiman/projects/test-blog/jekyll-TeXt-theme/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230626-94653-2xtlg0 sitelibdir\=./.gem.20230626-94653-2xtlg0 install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20230626-94653-2xtlg0
+
+current directory: /Users/riddhiman/projects/test-blog/jekyll-TeXt-theme/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230626-94653-2xtlg0 sitelibdir\=./.gem.20230626-94653-2xtlg0 clean
