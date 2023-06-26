@@ -141,7 +141,7 @@ checked program was:
 DYLD_FALLBACK_LIBRARY_PATH=.:/opt/homebrew/Cellar/ruby/3.2.2/lib "clang -o conftest -I/opt/homebrew/Cellar/ruby/3.2.2/include/ruby-3.2.0/arm64-darwin21 -I/opt/homebrew/Cellar/ruby/3.2.2/include/ruby-3.2.0/ruby/backward -I/opt/homebrew/Cellar/ruby/3.2.2/include/ruby-3.2.0 -I. -I/opt/homebrew/opt/libyaml/include -I/opt/homebrew/opt/openssl@1.1/include -I/opt/homebrew/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/opt/homebrew/Cellar/ruby/3.2.2/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib -L. -fstack-protector-strong -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib     -lcrypto -lssl -lruby.3.2  -lcrypto -lssl -lpthread  "
 Undefined symbols for architecture arm64:
   "_rb_thread_blocking_region", referenced from:
-      _t in conftest-c552ac.o
+      _t in conftest-56b53b.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -304,7 +304,7 @@ checked program was:
 DYLD_FALLBACK_LIBRARY_PATH=.:/opt/homebrew/Cellar/ruby/3.2.2/lib "clang -o conftest -I/opt/homebrew/Cellar/ruby/3.2.2/include/ruby-3.2.0/arm64-darwin21 -I/opt/homebrew/Cellar/ruby/3.2.2/include/ruby-3.2.0/ruby/backward -I/opt/homebrew/Cellar/ruby/3.2.2/include/ruby-3.2.0 -I. -I/opt/homebrew/opt/libyaml/include -I/opt/homebrew/opt/openssl@1.1/include -I/opt/homebrew/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/opt/homebrew/Cellar/ruby/3.2.2/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib -L. -fstack-protector-strong -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib     -lcrypto -lssl -lruby.3.2  -lcrypto -lssl -lpthread  "
 Undefined symbols for architecture arm64:
   "_rb_enable_interrupt", referenced from:
-      _t in conftest-3a98f3.o
+      _t in conftest-f2c816.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -485,7 +485,7 @@ checked program was:
 DYLD_FALLBACK_LIBRARY_PATH=.:/opt/homebrew/Cellar/ruby/3.2.2/lib "clang -o conftest -I/opt/homebrew/Cellar/ruby/3.2.2/include/ruby-3.2.0/arm64-darwin21 -I/opt/homebrew/Cellar/ruby/3.2.2/include/ruby-3.2.0/ruby/backward -I/opt/homebrew/Cellar/ruby/3.2.2/include/ruby-3.2.0 -I. -I/opt/homebrew/opt/libyaml/include -I/opt/homebrew/opt/openssl@1.1/include -I/opt/homebrew/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/opt/homebrew/Cellar/ruby/3.2.2/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib -L. -fstack-protector-strong -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib     -lcrypto -lssl -lruby.3.2  -lcrypto -lssl -lpthread  "
 Undefined symbols for architecture arm64:
   "_pipe2", referenced from:
-      _t in conftest-a5a457.o
+      _t in conftest-b44b12.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:
@@ -541,7 +541,7 @@ checked program was:
 DYLD_FALLBACK_LIBRARY_PATH=.:/opt/homebrew/Cellar/ruby/3.2.2/lib "clang -o conftest -I/opt/homebrew/Cellar/ruby/3.2.2/include/ruby-3.2.0/arm64-darwin21 -I/opt/homebrew/Cellar/ruby/3.2.2/include/ruby-3.2.0/ruby/backward -I/opt/homebrew/Cellar/ruby/3.2.2/include/ruby-3.2.0 -I. -I/opt/homebrew/opt/libyaml/include -I/opt/homebrew/opt/openssl@1.1/include -I/opt/homebrew/opt/readline/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wextra-tokens -Wdeprecated-declarations -Wdivision-by-zero -Wdiv-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wundef  -fno-common -pipe conftest.c  -L. -L/opt/homebrew/Cellar/ruby/3.2.2/lib -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib -L. -fstack-protector-strong -L/opt/homebrew/opt/libyaml/lib -L/opt/homebrew/opt/openssl@1.1/lib -L/opt/homebrew/opt/readline/lib     -lcrypto -lssl -lruby.3.2  -lcrypto -lssl -lpthread  "
 Undefined symbols for architecture arm64:
   "_accept4", referenced from:
-      _t in conftest-c81ac6.o
+      _t in conftest-f5b4f6.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:

@@ -1,4 +1,4 @@
-current directory: /Users/riddhiman/projects/test-blog/myblog/vendor/bundle/ruby/3.2.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Users/riddhiman/projects/test-blog/jekyll-TeXt-theme/vendor/bundle/ruby/3.2.0/gems/ffi-1.15.5/ext/ffi_c
 /opt/homebrew/opt/ruby/bin/ruby extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
@@ -8,11 +8,11 @@ checking for whether -pthread is accepted as LDFLAGS... yes
 creating extconf.h
 creating Makefile
 
-current directory: /Users/riddhiman/projects/test-blog/myblog/vendor/bundle/ruby/3.2.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230626-85707-wah383 sitelibdir\=./.gem.20230626-85707-wah383 clean
+current directory: /Users/riddhiman/projects/test-blog/jekyll-TeXt-theme/vendor/bundle/ruby/3.2.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20230626-94653-ly22m9 sitelibdir\=./.gem.20230626-94653-ly22m9 clean
 
-current directory: /Users/riddhiman/projects/test-blog/myblog/vendor/bundle/ruby/3.2.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230626-85707-wah383 sitelibdir\=./.gem.20230626-85707-wah383
+current directory: /Users/riddhiman/projects/test-blog/jekyll-TeXt-theme/vendor/bundle/ruby/3.2.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20230626-94653-ly22m9 sitelibdir\=./.gem.20230626-94653-ly22m9
 compiling AbstractMemory.c
 compiling ArrayType.c
 compiling Buffer.c
@@ -39,9 +39,9 @@ compiling ffi.c
 linking shared-object ffi_c.bundle
 ld: warning: -undefined dynamic_lookup may not work with chained fixups
 
-current directory: /Users/riddhiman/projects/test-blog/myblog/vendor/bundle/ruby/3.2.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230626-85707-wah383 sitelibdir\=./.gem.20230626-85707-wah383 install
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20230626-85707-wah383
+current directory: /Users/riddhiman/projects/test-blog/jekyll-TeXt-theme/vendor/bundle/ruby/3.2.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20230626-94653-ly22m9 sitelibdir\=./.gem.20230626-94653-ly22m9 install
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20230626-94653-ly22m9
 
-current directory: /Users/riddhiman/projects/test-blog/myblog/vendor/bundle/ruby/3.2.0/gems/ffi-1.15.5/ext/ffi_c
-make DESTDIR\= sitearchdir\=./.gem.20230626-85707-wah383 sitelibdir\=./.gem.20230626-85707-wah383 clean
+current directory: /Users/riddhiman/projects/test-blog/jekyll-TeXt-theme/vendor/bundle/ruby/3.2.0/gems/ffi-1.15.5/ext/ffi_c
+make DESTDIR\= sitearchdir\=./.gem.20230626-94653-ly22m9 sitelibdir\=./.gem.20230626-94653-ly22m9 clean
