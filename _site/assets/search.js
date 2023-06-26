@@ -1,0 +1,1 @@
+window.TEXT_SEARCH_DATA={'posts':[{'title':"Chart Test",'url':"/2023/06/26/chart-test.html"},{'title':"Page - Article Header Overlay Background Fill",'url':"/2023/06/26/test-post-with-new-bg.html"},{'title':"Test Post with MathJax",'url':"/2023/06/26/test-post.html"},{'title':"Welcome to Jekyll!",'url':"/jekyll/update/2023/06/26/welcome-to-jekyll.html"}]};
