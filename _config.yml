@@ -177,6 +177,14 @@ analytics:
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
+## katex
+katex:
+  js_path: "assets"  # Path used to search for katex.min.js
+  rendering_options:
+    # Default KaTeX rendering options. See https://github.com/Khan/KaTeX#rendering-options
+    throw_error: true                       # throwOnError - set to false if you want rendering to output error as text rather than a build error
+    error_color: "#cc0000"                  # errorColor
+
 ## => Build
 ##############################
 markdown    : kramdown
@@ -223,3 +231,5 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-katex
+

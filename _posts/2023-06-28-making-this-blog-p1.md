@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Making this blog
+title: Making this blog - P1
 mathjax: true
 ---
 
@@ -16,7 +16,8 @@ Yup it works. That's a lot of new features for one post. I'll push this to Githu
 
 Here's a random adjacency matrix just for fun.
 
-$$ A=
+$$
+A=
 \begin{bmatrix} 
 0 && 1 && 0 && 1 && 0 && 0 \\
 1 && 0 && 1 && 0 && 1 && 0 \\
