@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Making this blog
+title: Making this blog - P1
 mathjax: true
 ---
 
@@ -8,15 +8,20 @@ So I cant really figure out how to actually customise my existing theme or creat
 
 I think this is a cool idea, posting here as I keep building this site. After all part of this site's purpose is journaling and this is a good start. I'll start removing the default posts as I fill the blog up with these. To keep these a little exciting until the "real" content starts coming, I'll try to use some new markdown feature every post. 
 
+{% katexmm %}
 Okay so I enabled `detect Jekyll Front Matter` and another feature to render $\TeX$ let's test it: 
+{% endkatexmm %}
 
-$$y^3 = x^2 + Ax + B$$
+{% katex %}
+y^3 = x^2 + Ax + B
+{% endkatex %}
 
 Yup it works. That's a lot of new features for one post. I'll push this to Github pages. It really takes very long for the deployment to actually update. 
 
 Here's a random adjacency matrix just for fun.
 
-$$ A=
+{% katex display %}
+A=
 \begin{bmatrix} 
 0 && 1 && 0 && 1 && 0 && 0 \\
 1 && 0 && 1 && 0 && 1 && 0 \\
@@ -25,7 +30,7 @@ $$ A=
 0 && 1 && 1 && 0 && 0 && 0 \\
 0 && 0 && 0 && 1 && 0 && 0 \\
 \end{bmatrix}
-$$
+{% endkatex %}
 
 Tomorrow I'll see how I can fit more complicated latex and figures into this.
 
