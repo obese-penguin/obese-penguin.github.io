@@ -26,4 +26,4 @@ fr      : &FR       À propos
 key: page-about
 ---
 
-## site.description hello hello
+{{ site.description }}
