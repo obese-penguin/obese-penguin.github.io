@@ -22,7 +22,7 @@ url     : # the base hostname & protocol for your site e.g. https://www.someone.
 baseurl : # does not include hostname
 title   : amateur math blog 
 description: > # this means to ignore newlines until "Language & timezone"
-  This is my personal blog. I'm unsure about what this will contain. I'll post about my intersts here. Since that mostly consists of math and coding (making this website), that is what you'll find here.  
+  This is my personal blog. I'm unsure about what this will contain. For now I'll post about my intersts here. Since that mostly consists of math and coding (making this website), that is what you'll find here!
 
 
 ## => Language and Timezone
