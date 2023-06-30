@@ -1,1 +1,1 @@
-window.TEXT_SEARCH_DATA={'posts':[{'title':"Test Post with MathJax",'url':"/2023/06/26/test-post.html"},{'title':"Making this blog - P1",'url':"/2023/06/28/making-this-blog-p1.html"},{'title':"Making this blog - P2",'url':"/2023/06/28/making-this-blog-p2.html"}]};
+window.TEXT_SEARCH_DATA={'posts':[{'title':"Test Post with MathJax",'url':"/2023/06/26/test-post.html"},{'title':"Making this blog - P1",'url':"/2023/06/28/making-this-blog-p1.html"},{'title':"Making this blog - P2",'url':"/2023/06/29/making-this-blog-p2.html"}]};
